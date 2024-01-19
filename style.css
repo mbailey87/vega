@@ -22,7 +22,7 @@ body {
 .header {
     border-radius: 2px 2px 15px 15px;
     width: 99%;
-    height: 7vh;
+    height: 10%;
     background-color:rgb(248, 252, 255);
     position: relative;
     z-index: 999;
@@ -50,12 +50,14 @@ a {
 button {
     position: relative;
     top: 0;
+    border-radius: 15px 15px 15px 15px;
     background-color: rgb(248, 252, 255);
     border: rgb(248, 252, 255);
 }
 .loginButton {
     height: 0;
     width: 0;
+    border-radius: 15px 15px 15px 15px;
     background-color: rgb(248, 252, 255);
     position:relative;
     margin-top: 0%;
@@ -64,12 +66,12 @@ button {
 .text {
     text-align: right;
     position: absolute;
-    bottom: 35%;
-    right: 3%;
+    bottom: 25%;
+    right: 0;
     color: aliceblue;
 }
 .big {
-    font-size: 8em;
+    font-size: 130px;
 }
 .small {
     font-size: xx-large;
@@ -78,12 +80,11 @@ button {
     border-bottom: 5px solid rgb(195, 128, 3);
 }
 .appButtons {
-    width: 45%;
+    width: 35%;
     height: auto;
-
     text-align: right;
     position: absolute;
-    bottom: 25%;
+    bottom: 2%;
     right: 3%;
 }
 img {
@@ -102,15 +103,15 @@ img {
 .phone {
     position: absolute;
     object-fit: contain;
-    left: 12%;
+    left: 5%;
     top: 27%;
 }
 .notification {
     position: absolute;
     object-fit: contain;
     width: 15%;
-    left: 18%;
-    top: 60%;
+    left: 15%;
+    top: 80%;
 
 }
 .pricingPage, .signUpPage {
